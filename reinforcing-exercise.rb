@@ -1,6 +1,4 @@
-key_array = (1..50).to_a
-
-key_array.each do |number|
+(1..50).each do |number|
   number_hash = {}
   number_hash[number] = number
 
